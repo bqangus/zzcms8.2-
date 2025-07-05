@@ -4,7 +4,7 @@
 
 找到可控变量$step，其中以POST数据提交
 
-![](images/图片1.pngg)
+![img](images/图片1.pngg)
 
 继续往下看发现step 为1,2,3,4，分别进入不同的php页面
 ![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps1.jpg)
