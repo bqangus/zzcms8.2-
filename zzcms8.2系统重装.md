@@ -7,33 +7,33 @@
 ![img](images/图片1.png)
 
 继续往下看发现step 为1,2,3,4，分别进入不同的php页面
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps1.jpg)
+![img](images/图片2.png)
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps2.jpg)
+![img](images/图片3.png)
 
 在step_2.php文件中发现step=2时，可以进入该页面
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps3.jpg) 
+![img](images/图片4.png)
 
 尝试burp提交数据2,3,4
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps4.jpg) 
+![img](images/图片5.png)
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps5.jpg)
-
- 
+![img](images/图片6.png)
 
  
 
  
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps6.jpg) 
+ 
+
+![img](images/图片7.png)
 
  
 
 发现step=4时，结果为非法提交，然后从step=2，抓取进入数据按照页面，发现验证token
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps7.jpg) 
+![img](images/图片8.png)
 
 Poc：
 
@@ -65,35 +65,35 @@ step=2
 
 
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps16.jpg)
+![img](images/图片9.png)
 
 可以重装数据库
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps17.jpg) 
+![img](images/图片10.png)
 
 同时，发现填写数据库的信息是部分可控制的
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps18.jpg) 
+![img](images/图片11.png)
 
 发现如果更改框选部分内容，根据上面是无法连接数据库的，所以只能控制网站链接
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps19.jpg)
+![img](images/图片12.png)
 
 在网站访问网址地址这一栏加入一句话木马
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps20.jpg) 
+![img](images/图片13.png)
 
  
 
 查看代码，发现一句话木马写入成功
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps21.jpg) 
+![img](images/图片14.png)
 
 使用蚁剑进行连接，链接成功
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps22.jpg) 
+![img](images/图片15.png)
 
  
 
 查看文件
 
-![img](file:///C:\Users\bqangus\AppData\Local\Temp\ksohtml47416\wps23.jpg) 
+![img](images/图片16.png)
